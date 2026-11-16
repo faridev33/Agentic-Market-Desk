@@ -1,0 +1,29 @@
+{
+  "name": "agentic-market-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend multi-agent untuk analisis trading dan investasi jangka panjang",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "dev": "tsx watch --disable-warning=ExperimentalWarning src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node --disable-warning=ExperimentalWarning dist/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsx --test --disable-warning=ExperimentalWarning tests/*.test.ts"
+  },
+  "dependencies": {
+    "@fastify/static": "^10.1.8",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.12.7",
+    "yahoo-finance2": "^4.0.5",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

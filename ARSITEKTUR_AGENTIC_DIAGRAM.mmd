@@ -1,0 +1,77 @@
+%% ================================================================
+%% AGENTIC MARKET DESK — Diagram Alur: Sumber Data -> 8 Agen -> Output
+%% Sumber: ROADMAP_DAN_ARSITEKTUR_AGENTIC.md
+%% Render: mermaid.live, VS Code (Mermaid preview), atau GitHub
+%% ================================================================
+flowchart TD
+
+    %% ---------- 1. SUMBER DATA ----------
+    subgraph DATA["1. SUMBER DATA (Data Ingestion and Origin)"]
+        YF["<b>Yahoo Finance</b> (yahoo-finance2)<br/>• Quote real-time intraday (chunk 100)<br/>• OHLCV candle 1 bulan - 3 tahun<br/>• Fundamental + rasio valuasi (quoteSummary)<br/>• Laporan keuangan tahunan 2018+ (timeSeries)<br/>• Profil perusahaan dan direksi (assetProfile)<br/>• Makro global: ^JKSE ^VIX ^TNX ^IRX<br/>DXY GC=F (emas) CL=F (minyak)"]
+        GN["<b>Google News RSS Indonesia</b><br/>• Berita emiten: saham {KODE} / {KODE}.JK<br/>• Berita makro: IHSG, bursa efek indonesia<br/>• Penerbit lokal: CNBC, Kontan, Bisnis.com<br/>• Judul, tanggal, link artikel"]
+        IDXDB["<b>Database Internal BEI</b> (idxUniverse.ts)<br/>• +/- 956 emiten tercatat IDX<br/>• Ticker, nama PT, sektor IDX-IC, industri<br/>• Papan Utama / Pengembangan / Akselerasi<br/>• Tanggal IPO"]
+    end
+
+    CACHE["⏱ TtlCache in-memory<br/>quote 30 dtk • histori 5 mnt • berita 5 mnt<br/>makro 10 mnt • fundamental 6 jam"]
+
+    %% ---------- 2. DELAPAN AGEN ----------
+    subgraph AGENTS["2. DELAPAN AGEN SPESIALIS (Agentic Roster)"]
+        A1["<b>1. Data Ingestion Agent</b><br/>Tarik, validasi, bersihkan data mentah;<br/>cek kesegaran timestamp<br/>→ status ok / degraded / failed"]
+        A2["<b>2. Technical Trend Agent</b><br/>SMA20/50/200, golden-death cross, RSI-14,<br/>MACD dinormalisasi ATR, ROC, OBV, Z-score<br/>volume, volatilitas, jarak 52-minggu<br/>→ skor S_tech [-1..+1], confidence"]
+        A3["<b>3. Fundamental Value Agent</b><br/>PER PBV EV/EBITDA FCF Yield (35%),<br/>ROE margin DER current ratio (42%),<br/>growth (23%), aturan khusus emiten bank<br/>→ skor S_fund + Murah/Wajar/Mahal"]
+        A4["<b>4. Macro Regime Agent</b><br/>VIX, inversi kurva 10Y-3M, tekanan DXY,<br/>posisi IHSG vs SMA200/SMA50<br/>→ rezim risk_on / neutral / risk_off<br/>(modifier bobot trading dan investasi)"]
+        A5["<b>5. News and Sentiment Agent</b><br/>Leksikon bilingual 45+ kata positif/negatif,<br/>deteksi event (dividen, pkpu, akuisisi),<br/>recency decay half-life 72 jam, LLM<br/>→ skor S_sent + daftar event material"]
+        A6["<b>6. Quant Momentum Agent</b><br/>Volatilitas annualized, proksi Sharpe,<br/>ADV 20 hari, historical drawdown<br/>→ tolak saham tidak likuid<br/>(anti saham gorengan)"]
+        A8["<b>8. Portfolio Synthesizer and Risk Guardian</b><br/>• Sintesis: bobot dinamis per horizon+rezim,<br/>skor konsensus, agreement, P_up<br/>• Risk: SL 2xATR, TP 2R, Fractional Kelly ¼<br/>6 kendala: risiko 1% / vol 15% / plafon 20%<br/>/ 1% ADV / sektor 35% / kill switch DD 15%"]
+        A7["<b>7. Contrarian Critic Agent</b><br/>Auditor adversarial / red-team: cek 13 aturan<br/>deterministik (data, konflik teknikal vs<br/>fundamental, overbought, risk-off buy, dll)<br/>→ vonis pass / caution / reject + HAK VETO"]
+    end
+
+    %% ---------- 3. OUTPUT ----------
+    subgraph OUTPUT["3. OUTPUT"]
+        DEC["📌 Keputusan final per emiten:<br/><b>strong_buy / buy / hold / reduce / sell</b><br/>Rencana Entry - StopLoss - TakeProfit (Rp),<br/>jumlah lot, nilai alokasi modal"]
+        PICK["🏆 TOP 5 Emiten Rekomendasi<br/>(3 posisi Trading + 2 Investasi)<br/>Screener: 956 emiten → 150-180 likuid →<br/>shortlist 10+10 → musyawarah 8 agen"]
+        STORE["🗄 Jejak audit: SQLite app.db<br/>+ screener-cache.json<br/>+ top-picks-cache.json"]
+        UI["🖥 Frontend React + Virtual Office 3D<br/>Skor tiap agen, agreement %, hasil audit"]
+    end
+
+    %% ---------- KONEKSI ----------
+    YF --> CACHE
+    GN --> CACHE
+    IDXDB --> CACHE
+    CACHE --> A1
+
+    A1 --> A2
+    A1 --> A3
+    A1 --> A4
+    A1 --> A5
+    A1 --> A6
+
+    A2 -->|skor teknikal| A8
+    A3 -->|skor fundamental| A8
+    A4 -->|rezim makro| A8
+    A5 -->|skor sentimen| A8
+    A6 -->|skor momentum| A8
+
+    A8 -->|tesis + P_up untuk diaudit| A7
+    A7 -->|pass 1.00 / caution 0.70 multiplier| DEC
+    A7 -.->|reject: VETO buy jadi hold, modal Rp 0| DEC
+    A7 -->|lolos 13 aturan audit| PICK
+
+    DEC --> STORE
+    PICK --> STORE
+    STORE --> UI
+
+    %% ---------- WARNA ----------
+    classDef src fill:#E3F2FD,stroke:#1565C0,color:#0D213D;
+    classDef cache fill:#FFF3E0,stroke:#EF6C00,color:#4E2700;
+    classDef agent fill:#EDE7F6,stroke:#5E35B1,color:#1A0033;
+    classDef critic fill:#FCE4EC,stroke:#C2185B,color:#4A0020;
+    classDef guardian fill:#E0F2F1,stroke:#00695C,color:#00332A;
+    classDef out fill:#F1F8E9,stroke:#558B2F,color:#1B3409;
+
+    class YF,GN,IDXDB src;
+    class CACHE cache;
+    class A1,A2,A3,A4,A5,A6 agent;
+    class A7 critic;
+    class A8 guardian;
+    class DEC,PICK,STORE,UI out;

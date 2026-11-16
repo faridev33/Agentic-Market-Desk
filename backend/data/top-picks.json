@@ -1,0 +1,654 @@
+{
+  "id": "f3d48f8e-0df9-47a4-8b7c-90997ae82320",
+  "generatedAt": "2026-11-15T11:23:31.108Z",
+  "durationMs": 108328,
+  "params": {
+    "tradingCount": 3,
+    "investmentCount": 2,
+    "priceMin": 100,
+    "priceMax": 20000,
+    "minDailyValue": 5000000000,
+    "minMarketCap": 500000000000,
+    "deepScanLimit": 180,
+    "shortlistPerHorizon": 10
+  },
+  "universe": {
+    "total": 956,
+    "priced": 914,
+    "liquid": 129,
+    "deepScanned": 129,
+    "shortlisted": 13,
+    "extendedExcluded": 8
+  },
+  "picks": [
+    {
+      "rank": 1,
+      "horizon": "trading",
+      "code": "PTBA",
+      "symbol": "PTBA.JK",
+      "name": "PT Bukit Asam (Persero) Tbk",
+      "sector": "Energy",
+      "price": 3200,
+      "changePct": 0.6289308,
+      "marketCap": 36845945618432,
+      "consensusScore": 68.1,
+      "voteCount": 5,
+      "agreementPct": 63,
+      "grade": "B",
+      "heuristicScore": 79.3,
+      "overextended": false,
+      "stretchScore": 0.02,
+      "stretchReasons": [
+        "naik 36% dalam 3 bulan"
+      ],
+      "indicators": {
+        "sma20": 3089,
+        "sma50": 3115.6,
+        "sma200": 2757.45,
+        "rsi14": 55.70135446316951,
+        "atrPct": 4.65085805054055,
+        "volatilityPct": 37.00694414410194,
+        "return1mPct": -0.3115264797507788,
+        "return3mPct": 35.59322033898305,
+        "return6mPct": 11.498257839721255,
+        "volumeRatio": 0.6693765274442542,
+        "drawdownPct": 28.61635220125786,
+        "from52wHighPct": -5.882352941176472,
+        "fromSma20Pct": 3.5933959210100452,
+        "fromSma50Pct": 2.7089485171395644,
+        "avgDailyValue": 99527104000
+      },
+      "fundamentals": {
+        "sector": "Energy",
+        "trailingPE": 6.2015505,
+        "priceToBook": 1.358941,
+        "returnOnEquityPct": 24.898,
+        "debtToEquityPct": 17.226,
+        "revenueGrowthPct": 21.099999999999998,
+        "profitMarginPct": 12.781999999999998,
+        "dividendYieldPct": 3.58
+      },
+      "plan": {
+        "entryLow": 3029,
+        "entryHigh": 3149,
+        "stopLoss": 2791,
+        "target": 3924,
+        "riskReward": 2.8,
+        "holdDays": 30,
+        "entryPullbackPct": -3.5
+      },
+      "thesis": [
+        "Macro Regime: Momentum 3 bulan 35,6%, RSI 55,7, harga hanya 3,6% di atas SMA20; PE 6,2 dan ROE 24,9% mendukung rotasi energi.",
+        "Quant Momentum: Momentum stabil, ret3m 35.6%, RSI 55.7 netral, extMA20 3.6% dekat support. Likuiditas Rp 100 M/hari dan ROE 24.9% sangat solid.",
+        "Risk Guardian: RSI 55.7, extMA20 3.6%, ATR 4.65%, dan transaksi Rp100 M/hari; PE 6.2 serta ROE 24.9% memberi bantalan risiko.",
+        "Portfolio Synthesizer: RSI 55.7 moderat, extMA20% 3.6% masih wajar, ret3m% +35.6% momentum kuat, PE 6.2x murah, dekat support MA20."
+      ],
+      "risks": [
+        "Risiko utama: perubahan sentimen pasar/IHSG dan rilis laporan keuangan."
+      ],
+      "votes": [
+        {
+          "agentId": "macro_regime",
+          "agentName": "Macro Regime",
+          "model": "cx/gpt-5.6-luna",
+          "modelUsed": "cx/gpt-5.6-luna",
+          "horizon": "trading",
+          "conviction": 86,
+          "reason": "Momentum 3 bulan 35,6%, RSI 55,7, harga hanya 3,6% di atas SMA20; PE 6,2 dan ROE 24,9% mendukung rotasi energi."
+        },
+        {
+          "agentId": "quant_momentum",
+          "agentName": "Quant Momentum",
+          "model": "ag/gemini-3.8-flash-low",
+          "modelUsed": "ag/gemini-3.8-flash-low",
+          "horizon": "trading",
+          "conviction": 84,
+          "reason": "Momentum stabil, ret3m 35.6%, RSI 55.7 netral, extMA20 3.6% dekat support. Likuiditas Rp 100 M/hari dan ROE 24.9% sangat solid."
+        },
+        {
+          "agentId": "risk_guardian",
+          "agentName": "Risk Guardian",
+          "model": "cx/gpt-5.6-terra",
+          "modelUsed": "cx/gpt-5.6-terra",
+          "horizon": "trading",
+          "conviction": 82,
+          "reason": "RSI 55.7, extMA20 3.6%, ATR 4.65%, dan transaksi Rp100 M/hari; PE 6.2 serta ROE 24.9% memberi bantalan risiko."
+        },
+        {
+          "agentId": "portfolio_synthesizer",
+          "agentName": "Portfolio Synthesizer",
+          "model": "ag/claude-sonnet-4-6",
+          "modelUsed": "ag/claude-sonnet-4-6",
+          "horizon": "trading",
+          "conviction": 74,
+          "reason": "RSI 55.7 moderat, extMA20% 3.6% masih wajar, ret3m% +35.6% momentum kuat, PE 6.2x murah, dekat support MA20."
+        },
+        {
+          "agentId": "fundamental_value",
+          "agentName": "Fundamental Value",
+          "model": "ag/claude-sonnet-4-6",
+          "modelUsed": "ag/claude-sonnet-4-6",
+          "horizon": "trading",
+          "conviction": 72,
+          "reason": "PE 6.2x murah, ROE 24.9%, revGrowth 21.1%, extMA20 3.6% masih wajar, dekat 52w high -5.9%."
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "horizon": "trading",
+      "code": "MPMX",
+      "symbol": "MPMX.JK",
+      "name": "PT Mitra Pinasthika Mustika Tbk",
+      "sector": "Consumer Cyclical",
+      "price": 1075,
+      "changePct": -0.46296296,
+      "marketCap": 4714577002496,
+      "consensusScore": 58.8,
+      "voteCount": 3,
+      "agreementPct": 38,
+      "grade": "C",
+      "heuristicScore": 74,
+      "overextended": false,
+      "stretchScore": 0,
+      "stretchReasons": [],
+      "indicators": {
+        "sma20": 1037.5,
+        "sma50": 1029.3,
+        "sma200": 1008.425,
+        "rsi14": 63.47583089595379,
+        "atrPct": 1.9175924368148598,
+        "volatilityPct": 22.64876278024827,
+        "return1mPct": 5.392156862745098,
+        "return3mPct": 6.965174129353234,
+        "return6mPct": 6.965174129353234,
+        "volumeRatio": 1.5261010803902693,
+        "drawdownPct": 19.383259911894275,
+        "from52wHighPct": -5.286343612334798,
+        "fromSma20Pct": 3.6144578313253017,
+        "fromSma50Pct": 4.439910618867193,
+        "avgDailyValue": 7284941750
+      },
+      "fundamentals": {
+        "sector": "Consumer Cyclical",
+        "trailingPE": 8.08453,
+        "priceToBook": 0.8163693,
+        "returnOnEquityPct": 9.413999,
+        "debtToEquityPct": 0.442,
+        "revenueGrowthPct": 1.4000000000000001,
+        "profitMarginPct": 3.4779999999999998,
+        "dividendYieldPct": 15.810001000000002
+      },
+      "plan": {
+        "entryLow": 1034,
+        "entryHigh": 1050,
+        "stopLoss": 1001,
+        "target": 1171,
+        "riskReward": 3.14,
+        "holdDays": 30,
+        "entryPullbackPct": -3.1
+      },
+      "thesis": [
+        "Technical Trend: Uptrend solid di atas seluruh SMA, RSI 63.5 sehat, volRatio 1.53 mengonfirmasi akumulasi, extMA20 hanya 3.6%.",
+        "News & Sentiment: VolRatio 1.53 mengindikasikan akumulasi aktif, didukung RSI 63.5 dan extMA20 3.6%. Katalis sentimen dividen menopang momentum trading jangka pendek.",
+        "Risk Guardian: ATR hanya 1.92%, extMA20 3.6%, RSI 63.5, volRatio 1.53; drawdown 1 tahun 19% dan harga dekat puncak hanya 5.3%."
+      ],
+      "risks": [
+        "Nilai transaksi harian di bawah Rp 10 M; slippage saat keluar posisi besar."
+      ],
+      "votes": [
+        {
+          "agentId": "technical_trend",
+          "agentName": "Technical Trend",
+          "model": "ag/gemini-3.8-flash-low",
+          "modelUsed": "ag/gemini-3.8-flash-low",
+          "horizon": "trading",
+          "conviction": 82,
+          "reason": "Uptrend solid di atas seluruh SMA, RSI 63.5 sehat, volRatio 1.53 mengonfirmasi akumulasi, extMA20 hanya 3.6%."
+        },
+        {
+          "agentId": "news_sentiment",
+          "agentName": "News & Sentiment",
+          "model": "ag/gemini-3.8-flash-medium",
+          "modelUsed": "ag/gemini-3.8-flash-medium",
+          "horizon": "trading",
+          "conviction": 76,
+          "reason": "VolRatio 1.53 mengindikasikan akumulasi aktif, didukung RSI 63.5 dan extMA20 3.6%. Katalis sentimen dividen menopang momentum trading jangka pendek."
+        },
+        {
+          "agentId": "risk_guardian",
+          "agentName": "Risk Guardian",
+          "model": "cx/gpt-5.6-terra",
+          "modelUsed": "cx/gpt-5.6-terra",
+          "horizon": "trading",
+          "conviction": 76,
+          "reason": "ATR hanya 1.92%, extMA20 3.6%, RSI 63.5, volRatio 1.53; drawdown 1 tahun 19% dan harga dekat puncak hanya 5.3%."
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "horizon": "trading",
+      "code": "BBNI",
+      "symbol": "BBNI.JK",
+      "name": "PT Bank Negara Indonesia (Persero) Tbk",
+      "sector": "Financial Services",
+      "price": 3530,
+      "changePct": 1.7291067,
+      "marketCap": 131609382617088,
+      "consensusScore": 57.5,
+      "voteCount": 4,
+      "agreementPct": 50,
+      "grade": "D",
+      "heuristicScore": 74.5,
+      "overextended": false,
+      "stretchScore": 0,
+      "stretchReasons": [],
+      "indicators": {
+        "sma20": 3324,
+        "sma50": 3461.2,
+        "sma200": 3762.15,
+        "rsi14": 58.564639489576386,
+        "atrPct": 3.4992235282094373,
+        "volatilityPct": 37.41262081945593,
+        "return1mPct": 3.519061583577713,
+        "return3mPct": -2.7548209366391188,
+        "return6mPct": -7.591623036649215,
+        "volumeRatio": 0.9228097921245827,
+        "drawdownPct": 36.06911447084234,
+        "from52wHighPct": -23.758099352051833,
+        "fromSma20Pct": 6.197352587244276,
+        "fromSma50Pct": 1.9877499133248655,
+        "avgDailyValue": 164306321000
+      },
+      "fundamentals": {
+        "sector": "Financial Services",
+        "trailingPE": 6.2588654,
+        "priceToBook": 0.77445686,
+        "returnOnEquityPct": 12.16,
+        "debtToEquityPct": null,
+        "revenueGrowthPct": 12.4,
+        "profitMarginPct": 39.328,
+        "dividendYieldPct": 9.9
+      },
+      "plan": {
+        "entryLow": 3283,
+        "entryHigh": 3382,
+        "stopLoss": 3085,
+        "target": 4104,
+        "riskReward": 3.12,
+        "holdDays": 30,
+        "entryPullbackPct": -5.6
+      },
+      "thesis": [
+        "Macro Regime: Nilai transaksi Rp164 miliar, RSI 58,6, return 1 bulan 3,5%; PE 6,3 dan extMA20 6,2% masih terkendali.",
+        "News & Sentiment: Likuiditas masif Rp 164 M/hari, extMA50 2.0%, dan PE 6.3. Katalis pertumbuhan laba 12.4% menjaga sentimen positif sektor perbankan.",
+        "Fundamental Value: PE 6.3x, PB 0.77x sangat murah, ROE 12.2%, extMA20 6.2% batas aman, RSI 58.6 tidak overbought.",
+        "Portfolio Synthesizer: RSI 58.6, extMA20% 6.2% masih toleran, nilai transaksi Rp164M/hari likuid, PE 6.3x, ROE 12.2% solid."
+      ],
+      "risks": [
+        "Harga masih di bawah SMA200 (tren jangka panjang belum pulih)."
+      ],
+      "votes": [
+        {
+          "agentId": "macro_regime",
+          "agentName": "Macro Regime",
+          "model": "cx/gpt-5.6-luna",
+          "modelUsed": "cx/gpt-5.6-luna",
+          "horizon": "trading",
+          "conviction": 76,
+          "reason": "Nilai transaksi Rp164 miliar, RSI 58,6, return 1 bulan 3,5%; PE 6,3 dan extMA20 6,2% masih terkendali."
+        },
+        {
+          "agentId": "news_sentiment",
+          "agentName": "News & Sentiment",
+          "model": "ag/gemini-3.8-flash-medium",
+          "modelUsed": "ag/gemini-3.8-flash-medium",
+          "horizon": "trading",
+          "conviction": 72,
+          "reason": "Likuiditas masif Rp 164 M/hari, extMA50 2.0%, dan PE 6.3. Katalis pertumbuhan laba 12.4% menjaga sentimen positif sektor perbankan."
+        },
+        {
+          "agentId": "fundamental_value",
+          "agentName": "Fundamental Value",
+          "model": "ag/claude-sonnet-4-6",
+          "modelUsed": "ag/claude-sonnet-4-6",
+          "horizon": "trading",
+          "conviction": 68,
+          "reason": "PE 6.3x, PB 0.77x sangat murah, ROE 12.2%, extMA20 6.2% batas aman, RSI 58.6 tidak overbought."
+        },
+        {
+          "agentId": "portfolio_synthesizer",
+          "agentName": "Portfolio Synthesizer",
+          "model": "ag/claude-sonnet-4-6",
+          "modelUsed": "ag/claude-sonnet-4-6",
+          "horizon": "trading",
+          "conviction": 65,
+          "reason": "RSI 58.6, extMA20% 6.2% masih toleran, nilai transaksi Rp164M/hari likuid, PE 6.3x, ROE 12.2% solid."
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "horizon": "investment",
+      "code": "INDF",
+      "symbol": "INDF.JK",
+      "name": "PT Indofood Sukses Makmur Tbk",
+      "sector": "Consumer Defensive",
+      "price": 7000,
+      "changePct": 1.0830325,
+      "marketCap": 61462982688768,
+      "consensusScore": 67.7,
+      "voteCount": 5,
+      "agreementPct": 63,
+      "grade": "C",
+      "heuristicScore": 69.6,
+      "overextended": false,
+      "stretchScore": 0,
+      "stretchReasons": [],
+      "indicators": {
+        "sma20": 6663.75,
+        "sma50": 6867.5,
+        "sma200": 6788,
+        "rsi14": 61.07059572786498,
+        "atrPct": 2.9032400662938764,
+        "volatilityPct": 27.34673142682555,
+        "return1mPct": 0.7194244604316548,
+        "return3mPct": -5.723905723905724,
+        "return6mPct": 1.083032490974729,
+        "volumeRatio": 0.8383072103270105,
+        "drawdownPct": 20.80536912751678,
+        "from52wHighPct": -6.666666666666665,
+        "fromSma20Pct": 5.045957606452833,
+        "fromSma50Pct": 1.9293775027302562,
+        "avgDailyValue": 37330650000
+      },
+      "fundamentals": {
+        "sector": "Consumer Defensive",
+        "trailingPE": 5.761317,
+        "priceToBook": 0.76962996,
+        "returnOnEquityPct": 13.095,
+        "debtToEquityPct": 60.341,
+        "revenueGrowthPct": 15.5,
+        "profitMarginPct": 7.9619995999999995,
+        "dividendYieldPct": 4.14
+      },
+      "plan": {
+        "entryLow": 6786,
+        "entryHigh": 6949,
+        "stopLoss": 6298,
+        "target": 8429,
+        "riskReward": 2.74,
+        "holdDays": 180,
+        "entryPullbackPct": -1.9
+      },
+      "thesis": [
+        "Macro Regime: PE 5,8, PB 0,77, ROE 13,1%; extMA20 5,0% dan drawdown 1 tahun 21% memberi valuasi defensif menarik.",
+        "Risk Guardian: PE 5.8, PB 0.77, ROE 13.1%, transaksi Rp37 M/hari; extMA20 5.0% dan ATR 2.90% menjaga risiko entry terukur.",
+        "Contrarian Critic: Valuasi defensif PE 5.8, ROE 13.1%, extMA50% 1.9%, transaksi Rp37M/hari. Risiko utama: beban solvabilitas DER 60% dan fluktuasi harga komoditas agribisnis.",
+        "News & Sentiment: Valuasi terdiskon dengan PE 5.8, PB 0.77, dan revGrowth 15.5%. Dekat MA50 (1.9%) menjadikannya defensif terhadap volatilitas pasar."
+      ],
+      "risks": [
+        "Risiko utama: perubahan sentimen pasar/IHSG dan rilis laporan keuangan."
+      ],
+      "votes": [
+        {
+          "agentId": "macro_regime",
+          "agentName": "Macro Regime",
+          "model": "cx/gpt-5.6-luna",
+          "modelUsed": "cx/gpt-5.6-luna",
+          "horizon": "investment",
+          "conviction": 84,
+          "reason": "PE 5,8, PB 0,77, ROE 13,1%; extMA20 5,0% dan drawdown 1 tahun 21% memberi valuasi defensif menarik."
+        },
+        {
+          "agentId": "risk_guardian",
+          "agentName": "Risk Guardian",
+          "model": "cx/gpt-5.6-terra",
+          "modelUsed": "cx/gpt-5.6-terra",
+          "horizon": "investment",
+          "conviction": 83,
+          "reason": "PE 5.8, PB 0.77, ROE 13.1%, transaksi Rp37 M/hari; extMA20 5.0% dan ATR 2.90% menjaga risiko entry terukur."
+        },
+        {
+          "agentId": "contrarian_critic",
+          "agentName": "Contrarian Critic",
+          "model": "ag/gemini-3.8-flash-medium",
+          "modelUsed": "ag/gemini-3.8-flash-medium",
+          "horizon": "investment",
+          "conviction": 82,
+          "reason": "Valuasi defensif PE 5.8, ROE 13.1%, extMA50% 1.9%, transaksi Rp37M/hari. Risiko utama: beban solvabilitas DER 60% dan fluktuasi harga komoditas agribisnis."
+        },
+        {
+          "agentId": "news_sentiment",
+          "agentName": "News & Sentiment",
+          "model": "ag/gemini-3.8-flash-medium",
+          "modelUsed": "ag/gemini-3.8-flash-medium",
+          "horizon": "investment",
+          "conviction": 80,
+          "reason": "Valuasi terdiskon dengan PE 5.8, PB 0.77, dan revGrowth 15.5%. Dekat MA50 (1.9%) menjadikannya defensif terhadap volatilitas pasar."
+        },
+        {
+          "agentId": "portfolio_synthesizer",
+          "agentName": "Portfolio Synthesizer",
+          "model": "ag/claude-sonnet-4-6",
+          "modelUsed": "ag/claude-sonnet-4-6",
+          "horizon": "investment",
+          "conviction": 76,
+          "reason": "extMA20% 5.0%, PE 5.8x sangat murah, ROE 13.1%, revGrowth 15.5%, DD1y% -6.7% risiko terbatas, defensif."
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "horizon": "investment",
+      "code": "ULTJ",
+      "symbol": "ULTJ.JK",
+      "name": "PT Ultrajaya Milk Industry & Trading Company Tbk",
+      "sector": "Consumer Defensive",
+      "price": 2090,
+      "changePct": 1.4563107,
+      "marketCap": 21732186390528,
+      "consensusScore": 66.2,
+      "voteCount": 4,
+      "agreementPct": 50,
+      "grade": "C",
+      "heuristicScore": 83.2,
+      "overextended": false,
+      "stretchScore": 0.14,
+      "stretchReasons": [
+        "naik 38% dalam 3 bulan"
+      ],
+      "indicators": {
+        "sma20": 2079,
+        "sma50": 2001.8,
+        "sma200": 1621.7,
+        "rsi14": 57.11930926304903,
+        "atrPct": 2.4485671776092675,
+        "volatilityPct": 36.8583116052563,
+        "return1mPct": 0,
+        "return3mPct": 38.41059602649007,
+        "return6mPct": 30.625000000000004,
+        "volumeRatio": 0.5791175750174831,
+        "drawdownPct": 26.764705882352942,
+        "from52wHighPct": -2.7906976744186074,
+        "fromSma20Pct": 0.5291005291005346,
+        "fromSma50Pct": 4.406034568887995,
+        "avgDailyValue": 20457505200
+      },
+      "fundamentals": {
+        "sector": "Consumer Defensive",
+        "trailingPE": 11.903406,
+        "priceToBook": 2.6154554,
+        "returnOnEquityPct": 22.619,
+        "debtToEquityPct": 0.446,
+        "revenueGrowthPct": 24.6,
+        "profitMarginPct": 17.021998999999997,
+        "dividendYieldPct": 6.22
+      },
+      "plan": {
+        "entryLow": 1981,
+        "entryHigh": 2022,
+        "stopLoss": 1859,
+        "target": 2447,
+        "riskReward": 3.11,
+        "holdDays": 180,
+        "entryPullbackPct": -4.2
+      },
+      "thesis": [
+        "Risk Guardian: ROE 22.6%, pertumbuhan pendapatan 24.6%, PE 11.9; extMA20 hanya 0.5%, drawdown 1 tahun 27%, dan harga 2.8% dari puncak.",
+        "Technical Trend: Uptrend kokoh di atas SMA20/50/200, momentum ret3m +38.4%, extMA20 sangat aman di 0.5% dekat support, ROE 22.6%.",
+        "Fundamental Value: PE 11.9x wajar, ROE 22.6%, DER 0% bebas utang, revGrowth 24.6%, extMA20 hanya 0.5% sangat dekat MA20.",
+        "Portfolio Synthesizer: extMA20% 0.5% sangat dekat MA20, DD1y% hanya -2.8%, ROE 22.6%, DER 0%, ret3m% +38.4% fundamental kuat."
+      ],
+      "risks": [
+        "Risiko utama: perubahan sentimen pasar/IHSG dan rilis laporan keuangan."
+      ],
+      "votes": [
+        {
+          "agentId": "risk_guardian",
+          "agentName": "Risk Guardian",
+          "model": "cx/gpt-5.6-terra",
+          "modelUsed": "cx/gpt-5.6-terra",
+          "horizon": "investment",
+          "conviction": 86,
+          "reason": "ROE 22.6%, pertumbuhan pendapatan 24.6%, PE 11.9; extMA20 hanya 0.5%, drawdown 1 tahun 27%, dan harga 2.8% dari puncak."
+        },
+        {
+          "agentId": "technical_trend",
+          "agentName": "Technical Trend",
+          "model": "ag/gemini-3.8-flash-low",
+          "modelUsed": "ag/gemini-3.8-flash-low",
+          "horizon": "investment",
+          "conviction": 80,
+          "reason": "Uptrend kokoh di atas SMA20/50/200, momentum ret3m +38.4%, extMA20 sangat aman di 0.5% dekat support, ROE 22.6%."
+        },
+        {
+          "agentId": "fundamental_value",
+          "agentName": "Fundamental Value",
+          "model": "ag/claude-sonnet-4-6",
+          "modelUsed": "ag/claude-sonnet-4-6",
+          "horizon": "investment",
+          "conviction": 80,
+          "reason": "PE 11.9x wajar, ROE 22.6%, DER 0% bebas utang, revGrowth 24.6%, extMA20 hanya 0.5% sangat dekat MA20."
+        },
+        {
+          "agentId": "portfolio_synthesizer",
+          "agentName": "Portfolio Synthesizer",
+          "model": "ag/claude-sonnet-4-6",
+          "modelUsed": "ag/claude-sonnet-4-6",
+          "horizon": "investment",
+          "conviction": 80,
+          "reason": "extMA20% 0.5% sangat dekat MA20, DD1y% hanya -2.8%, ROE 22.6%, DER 0%, ret3m% +38.4% fundamental kuat."
+        }
+      ]
+    }
+  ],
+  "agentRuns": [
+    {
+      "id": "technical_trend",
+      "name": "Technical Trend",
+      "role": "Tren & momentum harga",
+      "focus": "trading",
+      "model": "ag/gemini-3.8-flash-low",
+      "modelUsed": "ag/gemini-3.8-flash-low",
+      "status": "ok",
+      "durationMs": 4755,
+      "picks": 5,
+      "error": null
+    },
+    {
+      "id": "fundamental_value",
+      "name": "Fundamental Value",
+      "role": "Valuasi & kualitas laba",
+      "focus": "investment",
+      "model": "ag/claude-sonnet-4-6",
+      "modelUsed": "ag/claude-sonnet-4-6",
+      "status": "ok",
+      "durationMs": 10933,
+      "picks": 5,
+      "error": null
+    },
+    {
+      "id": "macro_regime",
+      "name": "Macro Regime",
+      "role": "Rezim makro & rotasi sektor",
+      "focus": "both",
+      "model": "cx/gpt-5.6-luna",
+      "modelUsed": "cx/gpt-5.6-luna",
+      "status": "ok",
+      "durationMs": 15714,
+      "picks": 5,
+      "error": null
+    },
+    {
+      "id": "news_sentiment",
+      "name": "News & Sentiment",
+      "role": "Katalis & sentimen pasar",
+      "focus": "trading",
+      "model": "ag/gemini-3.8-flash-medium",
+      "modelUsed": "ag/gemini-3.8-flash-medium",
+      "status": "ok",
+      "durationMs": 17368,
+      "picks": 5,
+      "error": null
+    },
+    {
+      "id": "quant_momentum",
+      "name": "Quant Momentum",
+      "role": "Skor statistik & likuiditas",
+      "focus": "trading",
+      "model": "ag/gemini-3.8-flash-low",
+      "modelUsed": "ag/gemini-3.8-flash-low",
+      "status": "ok",
+      "durationMs": 5680,
+      "picks": 5,
+      "error": null
+    },
+    {
+      "id": "risk_guardian",
+      "name": "Risk Guardian",
+      "role": "Proteksi modal",
+      "focus": "both",
+      "model": "cx/gpt-5.6-terra",
+      "modelUsed": "cx/gpt-5.6-terra",
+      "status": "ok",
+      "durationMs": 17626,
+      "picks": 5,
+      "error": null
+    },
+    {
+      "id": "contrarian_critic",
+      "name": "Contrarian Critic",
+      "role": "Uji balik tesis mayoritas",
+      "focus": "both",
+      "model": "ag/gemini-3.8-flash-medium",
+      "modelUsed": "ag/gemini-3.8-flash-medium",
+      "status": "ok",
+      "durationMs": 19539,
+      "picks": 5,
+      "error": null
+    },
+    {
+      "id": "portfolio_synthesizer",
+      "name": "Portfolio Synthesizer",
+      "role": "Komposisi portofolio final",
+      "focus": "both",
+      "model": "ag/claude-sonnet-4-6",
+      "modelUsed": "ag/claude-sonnet-4-6",
+      "status": "ok",
+      "durationMs": 12738,
+      "picks": 5,
+      "error": null
+    }
+  ],
+  "agentsOk": 8,
+  "regimeNote": "Hanya 23% kandidat di atas SMA200: rezim cenderung risk-off, prioritaskan posisi kecil.",
+  "notes": [
+    "914 emiten berharga; 129 lolos filter likuiditas (nilai transaksi ≥ Rp 5.0 M/hari).",
+    "129 kandidat punya ≥60 candle harian untuk dihitung indikatornya.",
+    "8 kandidat disisihkan karena harga sudah melambung (jauh di atas MA20/MA50, RSI panas, atau naik terlalu cepat); shortlist diambil dari 121 kandidat (121 belum melambung).",
+    "8/8 agen memberi suara; total 40 suara diterima."
+  ],
+  "disclaimer": "Lima emiten ini dipilih otomatis oleh 8 agen AI dari data publik Yahoo Finance, bukan nasihat keuangan. Skor konsensus belum terkalibrasi terhadap hasil nyata. Verifikasi laporan keuangan, cek likuiditas saat jam bursa, dan gunakan stop loss sesuai rencana risiko sebelum membeli."
+}

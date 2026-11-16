@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <meta
+      name="description"
+      content="Screener, berita, dan analisa saham IDX multi-agen dengan tampilan Rupiah dan mode terang/gelap."
+    />
+    <title>Agentic Market Desk · Screener & Analisa Saham IDX</title>
+    <script>
+      try {
+        var stored = localStorage.getItem("agentic-market-theme");
+        var theme =
+          stored === "light" || stored === "dark"
+            ? stored
+            : window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches
+              ? "light"
+              : "dark";
+        document.documentElement.dataset.theme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-BUOotHek.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CQHdC2wn.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

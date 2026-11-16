@@ -1,0 +1,262 @@
+[
+ {
+  "file": "01 [Scopus Q2] 2026 - Mathematics - GroundTrader Multi-Agent Transition Supervision for LLM-Based.pdf",
+  "head": "Academic Editor: Manuel Alberto | M. Ferreira | Received: 21 August 2026 | Revised: 15 September 2026 | Accepted: 16 September 2026 | Published: 24 September 2026 | Copyright:© 2026 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license. | Article | GroundTrader: Multi-Agent Transition Supervision for | LLM-Based Financial Trading | Xinda Cui 1, Yutong Liu 2 and Shulei Zhang 3,* | 1 Sydney Smart Technology College, Northeastern University at Qinhuangdao, Qinhuangdao 066004, China; | cuixinda@mails.neu.edu.cn | 2 School of Management, Northeastern University at Qinhuangdao, Qinhuangdao 066004, China; | liuyutong1@mails.neu.edu.cn | 3 College of Information Science and Engineering, Northeastern University, Shenyang 110819, China | *Correspondence: zhangshulei@neuq.edu.cn | Abstract | Large language model (LLM)-based financial agents use market information to generate | trading actions together with textual reasoning. However, the resulting executable position | transition may conflict with its supporting analysis, while the effect of intervening on that | transition becomes observable only after the market evolves. We propose GroundTrader, a | reliability-oriented multi-agent supervisory framework for LLM-based financial trading.",
+  "cite": [
+   "Mathematics2026,14, 3472 https://doi.org/10.3390/math14193472",
+   "https://doi.org/10.3390/math14193472"
+  ]
+ },
+ {
+  "file": "02 [Scopus Q2] 2026 - Mathematics - FraudDebate-Agent A Multi-Agent LLM Framework with an Evidence-Based.pdf",
+  "head": "Academic Editor: Raymond Lee | Received: 22 June 2026 | Revised: 16 July 2026 | Accepted: 21 July 2026 | Published: 27 July 2026 | Copyright: © 2026 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license. | Article | FRAUD DEBATE -AGENT : A Multi-Agent LLM Framework with an | Evidence-Based Debate Mechanism for Financial Statement | Fraud Detection | Xinran Yue 1,*, Jingyun Yang 2 and Wenhe Liu 3 | 1 Daniels College of Business, University of Denver, Denver, CO 80210, USA | 2 David A. Tepper School of Business, Carnegie Mellon University, Pittsburgh, PA 15213, USA; | claudey@alumni.cmu.edu | 3 School of Computer Science, Carnegie Mellon University, Pittsburgh, PA 15213, USA; wenhel@cs.cmu.edu | * Correspondence: xinran.yue@ieee.org | Abstract | Financial statement fraud inflicts large and recurring losses on capital markets, yet the dom- | inant detection paradigm still relies on single, black-box classifiers (e.g., RUSBoost) trained | on structured accounting ratios alone. Two limitations follow: (i) the rich, unstructured | Management Discussion and Analysis (MD&A) narrative of the 10-K filing is discarded, | and (ii) the resulting scores are difficult for auditors to trust because they carry no transpar- | ent, standards-aligned rationale. Recent large language model (LLM) systems have shown",
+  "cite": [
+   "Mathematics 2026, 14, 2695 https://doi.org/10.3390/math14152695",
+   "https://doi.org/10.3390/math14152695"
+  ]
+ },
+ {
+  "file": "03 [Scopus Q2] 2026 - Electronics - Consensus-Gated Execution A Multi-Agent LLM Architecture for.pdf",
+  "head": "Academic Editors: Eric Matson and | Young Im Cho | Received: 5 June 2026 | Revised: 16 July 2026 | Accepted: 29 July 2026 | Published: 4 August 2026 | Copyright: © 2026 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license. | Article | Consensus-Gated Execution: A Multi-Agent LLM Architecture | for Autonomous Cryptocurrency Trading | Agon Bajgora 1,2, Andrea Kulakov 2 and Faton Merovci 1,* | 1 Faculty of Mechanical and Computer Engineering, University of Mitrovica “Isa Boletini”, | 40000 Mitrovica, Kosovo; agon.bajgora@umib.net | 2 Faculty of Computer Science and Engineering, Ss. Cyril and Methodius University, | 1000 Skopje, North Macedonia; andrea.kulakov@finki.ukim.mk | * Correspondence: faton.merovci@umib.net | Abstract | Existing autonomous trading systems rely on collaborative or single-agent analysis, lacking | structured mechanisms for adversarial deliberation across opposing market perspectives. | We propose Consensus-Gated Execution (CGX), a multi-agent architecture where special- | ized Bull and Bear agents engage in a three-round structured debate, with a Meta-Evaluator | synthesizing their arguments to gate trade execution based on consensus strength. The | system is evaluated through two complementary experiments: a 52-week aggregation study",
+  "cite": [
+   "Electronics 2026, 15, 3453 https://doi.org/10.3390/electronics15153453",
+   "https://doi.org/10.3390/electronics15153453"
+  ]
+ },
+ {
+  "file": "04 [Scopus Q2] 2025 - Journal of Risk and - Stock Return Prediction on the LQ45 Market Index in the Indonesia.pdf",
+  "head": "Academic Editor: Thanasis Stengos | Received: 26 October 2025 | Revised: 26 November 2025 | Accepted: 4 December 2025 | Published: 14 December 2025 | Citation: Indra, Supian, S., Sukono, | Riaman, Saputra, M. P . A., Azahra, A. | S., & Pirdaus, D. I. (2025). Stock Return | Prediction on the LQ45 Market Index | in the Indonesia Stock Exchange Using | a Machine Learning Algorithm Based | on Technical Indicators.Journal of Risk | and Financial Management, 18(12), 714. | https://doi.org/10.3390/ | jrfm18120714 | Copyright: © 2025 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license | (https://creativecommons.org/ | licenses/by/4.0/). | Article | Stock Return Prediction on the LQ45 Market Index in the | Indonesia Stock Exchange Using a Machine Learning Algorithm | Based on Technical Indicators | Indra 1,*, Sudradjat Supian 2",
+  "cite": [
+   "Citation: Indra, Supian, S., Sukono,",
+   "https://doi.org/10.3390/",
+   "J. Risk Financial Manag. 2025, 18, 714 https://doi.org/10.3390/jrfm18120714"
+  ]
+ },
+ {
+  "file": "05 [Scopus Q1] 2026 - Scientific Reports - Intelligent financial forecasting using transformers, neuro-symbolic.pdf",
+  "head": "OPEN | Scientific Reports | (2026) 16:25013 1| https://doi.org/10.1038/s41598-026-49558-0 | Intelligent financial forecasting | using transformers, neuro-symbolic | AI, and agent-based systems | V. Jeyajeev1, R. Jagadeesh Kannan1, R. Deebalakshmi1, Balaji Ganesh Rajagopal1, | V. Jeyakrishnan2, Mohamed Abbas3 & Shaeen Kalathil4 | Forecasting the stock market is a difficult task because of the volatile price movements and complex | temporal dependencies. Established models frequently do not realize these unstable trends, | which leads to changeable forecasting. This paper introduces a comfortable AI-driven framework | that incorporates a sequence-to-prediction transformer model with LLM-based decision-making | for accurate and understandable stock price prediction. The prediction starts with a transformer- | enabled deep learning approach, which forecasts closing prices for the NIFTY Consumer Durables | index based on multi-head attention mechanisms for trend identification. The predicted results are | then provided to two decision-making approaches: Neuro-Symbolic AI and an Advanced AI Agent | Architecture, to check for accuracy as well as interpretability in financial forecasting. The NSAI | model is focused on predictions that are derived from rule-based reasoning, and thus, it ensures | that they are in line with actual market behaviors and risk factors. On the other hand, the design of | Advanced AI Agent Architecture aimed at enhancing the quality of decisions by utilizi",
+  "cite": [
+   "Scientific Reports | (2026) 16:25013 1| https://doi.org/10.1038/s41598-026-49558-0",
+   "Scientific Reports | (2026) 16:25013 2| https://doi.org/10.1038/s41598-026-49558-0"
+  ]
+ },
+ {
+  "file": "06 [Scopus Q1] 2025 - Big Data and Cognitive - Automated Trading Framework Using LLM-Driven Features and Deep.pdf",
+  "head": "Academic Editor: Fabrizio Messina | Received: 18 October 2025 | Revised: 25 November 2025 | Accepted: 27 November 2025 | Published: 11 December 2025 | Citation: Botunac, I.; Petkovi´ c, T.; | Bosna, J. Automated Trading | Framework Using LLM-Driven | Features and Deep Reinforcement | Learning. Big Data Cogn. Comput. | 2025, 9, 317. https://doi.org/ | 10.3390/bdcc9120317 | Copyright: © 2025 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license | (https://creativecommons.org/ | licenses/by/4.0/). | Article | Automated Trading Framework Using LLM-Driven Features and | Deep Reinforcement Learning | Ive Botunac 1,* | , Tomislav Petkovi´ c2 and Jurica Bosna 3 | 1 Faculty of Informatics and Digital Technologies, University of Rijeka, Radmile Matejˇ ci´ c 2, | 51000 Rijeka, Croatia | 2 Faculty of Electrical Engineering and Computing, University of Zagreb, Unska 3, 10000 Zagreb, Croatia;",
+  "cite": [
+   "Citation: Botunac, I.; Petkovi´ c, T.;",
+   "2025, 9, 317. https://doi.org/",
+   "Big Data Cogn. Comput. 2025, 9, 317 https://doi.org/10.3390/bdcc9120317"
+  ]
+ },
+ {
+  "file": "07 [Scopus Q2] 2025 - Investment Management and - Enhancing portfolio optimization with multi-LLM sentiment aggregation.pdf",
+  "head": "“Enhancing portfolio optimization with multi-LLM sentiment aggregation: A Black- | Litterman integration approach” | AUTHORS | Lamukanyani Alson Mantshimuli | John Weirstrass Muteba Mwamba | ARTICLE INFO | Lamukanyani Alson Mantshimuli and John Weirstrass Muteba Mwamba (2025). | Enhancing portfolio optimization with multi-LLM sentiment aggregation: A Black- | Litterman integration approach. Investment Management and Financial | Innovations, 22(3), 213-226. doi:10.21511/imfi.22(3).2025.16 | DOI http://dx.doi.org/10.21511/imfi.22(3).2025.16 | RELEASED ON Thursday, 14 August 2025 | RECEIVED ON Tuesday, 11 March 2025 | ACCEPTED ON Thursday, 10 July 2025 | LICENSE | This work is licensed under a Creative Commons Attribution 4.0 International | License | JOURNAL \"Investment Management and Financial Innovations\" | ISSN PRINT 1810-4967 | ISSN ONLINE 1812-9358 | PUBLISHER LLC “Consulting Publishing Company “Business Perspe ctives” | FOUNDER LLC “Consulting Publishing Company “Business Perspe ctives” | NUMBER OF REFERENCES | 30 | NUMBER OF FIGURES | 2 | NUMBER OF TABLES | 7",
+  "cite": [
+   "DOI http://dx.doi.org/10.21511/imfi.22(3).2025.16",
+   "Investment Management and Financial Innovations, Volume 22, Issue 3, 2025",
+   "http://dx.doi.org/10.21511/imfi.22(3).2025.16"
+  ]
+ },
+ {
+  "file": "08 [Scopus Q1] 2025 - Big Data and Cognitive - A Multi-Model Machine Learning Framework for Daily Stock Price.pdf",
+  "head": "Academic Editors: Teen-Hang Meen, | Charles Tijus, Cheng-Chien Kuo, | Kuei-Shu Hsu and Jih-Fu Tu | Received: 26 August 2025 | Revised: 22 September 2025 | Accepted: 23 September 2025 | Published: 28 September 2025 | Citation: Rai, B.; Soltanisehat, L. A | Multi-Model Machine Learning | Framework for Daily Stock Price | Prediction. Big Data Cogn. Comput. | 2025, 9, 248. https://doi.org/ | 10.3390/bdcc9100248 | Copyright: © 2025 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license | (https://creativecommons.org/ | licenses/by/4.0/). | Article | A Multi-Model Machine Learning Framework for Daily Stock | Price Prediction | Bharatendra Rai * | and Leili Soltanisehat | Department of Decision and Information Sciences, Charlton College of Business, University of Massachusetts | Dartmouth, 285 Westport Road, North Dartmouth, MA 02747, USA; lsoltanisehat@umassd.edu",
+  "cite": [
+   "Citation: Rai, B.; Soltanisehat, L. A",
+   "2025, 9, 248. https://doi.org/",
+   "Big Data Cogn. Comput. 2025, 9, 248 https://doi.org/10.3390/bdcc9100248"
+  ]
+ },
+ {
+  "file": "09 [Scopus Q2] 2025 - Mathematics - Multi-Modal Temporal Dynamic Graph Construction for Stock Rank.pdf",
+  "head": "Academic Editor: Anatoliy Swishchuk | Received: 25 January 2025 | Revised: 26 February 2025 | Accepted: 27 February 2025 | Published: 3 March 2025 | Citation: Liu, Y.; Wei, Z.; Chen, L.; Xu, | C.; Guan, Z. Multi-Modal Temporal | Dynamic Graph Construction for | Stock Rank Prediction. Mathematics | 2025, 13, 845. https://doi.org/ | 10.3390/math13050845 | Copyright: © 2025 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license | (https://creativecommons.org/ | licenses/by/4.0/). | Article | Multi-Modal Temporal Dynamic Graph Construction for Stock | Rank Prediction | Ying Liu 1, Zengyu Wei 1, Long Chen 2 | , Cai Xu 3,* | and Ziyu Guan 1 | 1 School of Information Science and Technology, Northwest University, Xi’an 710127, China; | liuying6@stu.nwu.edu.cn (Y.L.); ziyuguan@nwu.edu.cn (Z.G.) | 2 Shaanxi Key Laboratory of Information Communication Network and Security, Xi’an University of Posts and",
+  "cite": [
+   "Citation: Liu, Y.; Wei, Z.; Chen, L.; Xu,",
+   "2025, 13, 845. https://doi.org/",
+   "Mathematics 2025, 13, 845 https://doi.org/10.3390/math13050845"
+  ]
+ },
+ {
+  "file": "10 [Scopus Q2] 2026 - Symmetry - Symmetry-Aware Stock Prediction Based on Optimized Multi-Module.pdf",
+  "head": "Academic Editor: Jie Yang | Received: 26 May 2026 | Revised: 4 July 2026 | Accepted: 9 July 2026 | Published: 16 July 2026 | Copyright: © 2026 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license. | Article | Symmetry-Aware Stock Prediction Based on Optimized | Multi-Module Collaborative Features with | LSTM-CBAM-Time2Vec-KAN | Huiyong Wu and Xiufeng Hong * | School of Science, Shenyang University of Chemical Technology, Shenyang 110142, China; | wuhuiyong@syuct.edu.cn | * Correspondence: 2024207@stu.syuct.edu.cn | Abstract | This study proposes a hybrid deep learning model named LSTM-CBAM-Time2Vec-KAN | based on symmetry awareness and optimized multi-module collaborative features, aiming | to improve the accuracy and stability of stock price prediction. To address common short- | comings in traditional forecasting models such as insufficient feature extraction, difficulties | in parameter optimization, and inadequate utilization of temporal characteristics, the re- | search innovatively exploits the symmetry inherent in financial time series, particularly | their temporal periodicity and cross-dimensional feature consistency, to construct an in- | telligent prediction framework that integrates multiple modules. First, wavelet transform",
+  "cite": [
+   "Symmetry 2026, 18, 1198 https://doi.org/10.3390/sym18071198",
+   "https://doi.org/10.3390/sym18071198"
+  ]
+ },
+ {
+  "file": "11 [Scopus Q1] 2025 - Forecasting - Navigating AI-Driven Financial Forecasting A Systematic Review of.pdf",
+  "head": "Academic Editor: Sonia Leva | Received: 22 May 2025 | Revised: 10 July 2025 | Accepted: 11 July 2025 | Published: 14 July 2025 | Citation: Vancsura, L.; Tatay, T.; | Bareith, T. Navigating AI-Driven | Financial Forecasting: A Systematic | Review of Current Status and Critical | Research Gaps. Forecasting 2025, 7, 36. | https://doi.org/10.3390/ | forecast7030036 | Copyright: © 2025 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license | (https://creativecommons.org/ | licenses/by/4.0/). | Review | Navigating AI-Driven Financial Forecasting: A Systematic | Review of Current Status and Critical Research Gaps | László Vancsura 1 | , Tibor Tatay2,* | and Tibor Bareith 3 | 1 Department of Agricultural Logistics, Trade and Marketing, Institute of Agricultural and Food Economics, | Hungarian University of Agriculture and Life Sciences, 7400 Kaposvár, Hungary;",
+  "cite": [
+   "Citation: Vancsura, L.; Tatay, T.;",
+   "https://doi.org/10.3390/",
+   "Forecasting 2025, 7, 36 https://doi.org/10.3390/forecast7030036"
+  ]
+ },
+ {
+  "file": "12 [Scopus Q1] 2025 - PLOS One - Stock price dynamics prediction based on multi-scale fractals and.pdf",
+  "head": "PLOS One | https://doi.org/10.1371/journal.pone.0335554 December 2, 2025 1 / 17 | OPEN ACCESS | Citation: Du Y, Tian Y (2025) Stock price | dynamics prediction based on multi-scale | fractals and deep learning. PLoS One 20(12): | e0335554. https://doi.org/10.1371/journal. | pone.0335554 | Editor: Gabjin Oh, Chosun University, KOREA, | REPUBLIC OF | Received: April 11, 2025 | Accepted: October 12, 2025 | Published: December 2, 2025 | Copyright: © 2025 Du, Tian. This is an open | access article distributed under the terms of | the Creative Commons Attribution License, | which permits unrestricted use, distribution, | and reproduction in any medium, provided the | original author and source are credited. | Data availability statement: All relevant data | are available within the manuscript and its | Supporting Information files. Additional sup- | porting data corresponding to S1 File (Stock | price fluctuation prediction image data, ZIP) | and S1 Table (Stock price fluctuation prediction | financial data, company, and stock list, CSV) | are publicly accessible from Figshare at https:// | RESEARCH ARTICLE | Stock price dynamics prediction based on",
+  "cite": [
+   "PLOS One | https://doi.org/10.1371/journal.pone.0335554 December 2, 2025 1 / 17",
+   "Citation: Du Y, Tian Y (2025) Stock price",
+   "e0335554. https://doi.org/10.1371/journal.",
+   "PLOS One | https://doi.org/10.1371/journal.pone.0335554 December 2, 2025 2 / 17"
+  ]
+ },
+ {
+  "file": "13 [Scopus Q2] 2025 - Journal of Risk and - News Sentiment and Stock Market Dynamics A Machine Learning.pdf",
+  "head": "Academic Editor: Thanasis Stengos | Received: 10 June 2025 | Revised: 22 July 2025 | Accepted: 23 July 2025 | Published: 26 July 2025 | Citation: Davidovic, M., & McCleary, J. | (2025). News Sentiment and Stock | Market Dynamics: A Machine | Learning Investigation. Journal of Risk | and Financial Management, 18(8), 412. | https://doi.org/10.3390/ | jrfm18080412 | Copyright: © 2025 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license | (https://creativecommons.org/ | licenses/by/4.0/). | Article | News Sentiment and Stock Market Dynamics: A Machine | Learning Investigation | Milivoje Davidovic 1,* | and Jacqueline McCleary 2 | 1 Finance Academic Group, Northeastern University, 360 Huntington Ave, Boston, MA 02115, USA | 2 College of Science, Northeastern University, 360 Huntington Ave, Boston, MA 02115, USA; | j.mccleary@northeastern.edu",
+  "cite": [
+   "Citation: Davidovic, M., & McCleary, J.",
+   "https://doi.org/10.3390/",
+   "J. Risk Financial Manag. 2025, 18, 412 https://doi.org/10.3390/jrfm18080412"
+  ]
+ },
+ {
+  "file": "14 [Scopus Q2] 2025 - Investment Management and - The moderating role of investor sentiment on profitability and.pdf",
+  "head": "“The moderating role of investor sentiment on profitability and investment | premiums: Evidence from the Indonesian stock market” | AUTHORS | Zaida Rizqi Zainul | Khaira Amalia Fachrudin | Syahyunan | Nisrul Irawati | ARTICLE INFO | Zaida Rizqi Zainul, Khaira Amalia Fachrudin, Syahyu nan and Nisrul Irawati | (2025). The moderating role of investor sentiment on profitability and investment | premiums: Evidence from the Indonesian stock market. Investment Management | and Financial Innovations, 22(2), 100-111. doi:10.21511/imfi.22(2).2025.09 | DOI http://dx.doi.org/10.21511/imfi.22(2).2025.09 | RELEASED ON Friday, 18 April 2025 | RECEIVED ON Saturday, 05 October 2024 | ACCEPTED ON Monday, 31 March 2025 | LICENSE | This work is licensed under a Creative Commons Attribution 4.0 International | License | JOURNAL \"Investment Management and Financial Innovations\" | ISSN PRINT 1810-4967 | ISSN ONLINE 1812-9358 | PUBLISHER LLC “Consulting Publishing Company “Business Perspe ctives” | FOUNDER LLC “Consulting Publishing Company “Business Perspe ctives” | NUMBER OF REFERENCES | 48 | NUMBER OF FIGURES | 0",
+  "cite": [
+   "DOI http://dx.doi.org/10.21511/imfi.22(2).2025.09",
+   "Investment Management and Financial Innovations, Volume 22, Issue 2, 2025",
+   "http://dx.doi.org/10.21511/imfi.22(2).2025.09"
+  ]
+ },
+ {
+  "file": "15 [Scopus Q2] 2025 - Mathematics - MambaLLM Integrating Macro-Index and Micro-Stock Data for Enhanced.pdf",
+  "head": "Academic Editor: Anatoliy Swishchuk | Received: 25 March 2025 | Revised: 5 May 2025 | Accepted: 9 May 2025 | Published: 13 May 2025 | Citation: Yan, J.; Huang, Y. | MambaLLM: Integrating Macro-Index | and Micro-Stock Data for Enhanced | Stock Price Prediction. Mathematics | 2025, 13, 1599. https://doi.org/ | 10.3390/math13101599 | Copyright: © 2025 by the authors. | Licensee MDPI, Basel, Switzerland. | This article is an open access article | distributed under the terms and | conditions of the Creative Commons | Attribution (CC BY) license | (https://creativecommons.org/ | licenses/by/4.0/). | Article | MambaLLM: Integrating Macro-Index and Micro-Stock Data for | Enhanced Stock Price Prediction | Jin Yan 1 | and Yuling Huang 2,* | 1 School of Computer Science and Engineering, Macau University of Science and Technology, | Taipa, Macao, China; 2109853gii30010@student.must.edu.mo | 2 School of Computer Science and Software, Zhaoqing University, Zhaoqing 526000, China | * Correspondence: huangyuling@zqu.edu.cn",
+  "cite": [
+   "Citation: Yan, J.; Huang, Y.",
+   "2025, 13, 1599. https://doi.org/",
+   "Mathematics 2025, 13, 1599 https://doi.org/10.3390/math13101599"
+  ]
+ },
+ {
+  "file": "16 [SINTA 1] 2026 - Indonesian Journal of - Fine-tuned IndoBERT for stock market sentiment analysis evidence from.pdf",
+  "head": "Indonesian Journal of Electrical Engineering and Computer Science | Vol. 42, No. 3, June 2026, pp. 774~785 | ISSN: 2502-4752, DOI: 10.11591/ijeecs.v42.i3.pp774-785  774 | Journal homepage: http://ijeecs.iaescore.com | Fine-tuned IndoBERT for stock market sentiment analysis: | evidence from CNBC Indonesia news | Tri Agung Jiwandono1, MS Hendriyawan Achmad2, Suhirman1 | 1Master’s Program, Information Technology Study Program, Universitas Teknologi Yogyakarta, Yogyakarta, Indonesia | 2Department of Electrical and Electronic Engineering, Universitas Teknologi Yogyakarta, Yogyakarta, Indonesia | Article Info ABSTRACT | Article history: | Received Nov 30, 2025 | Revised Mar 27, 2026 | Accepted May 26, 2026 | Financial sentiment analysis in Indonesian markets faces significant | accuracy challenges, with existing models achieving only 78-81% accuracy. | We present a fine-tuned IndoBERT-Large model for classifying sentiment in | Indonesian stock market news headlines, trained on 9,819 CNBC Indonesia | headlines (January 2024-March 2025). Through systematic hyperparameter | optimization and stratified vocabulary-balanced splitting, our model | achieved 94.20% accuracy, surpassing previous baselines by 4-16 | percentage points. These results demonstrate IndoBERT's effectiveness for | Indonesian financial NLP and its potential for real-time market monitoring | and investment decision support systems. | Keywords: | Financial news classification | IndoBERT sentiment analysis | Stock mark",
+  "cite": [
+   "Vol. 42, No. 3, June 2026, pp. 774~785",
+   "ISSN: 2502-4752, DOI: 10.11591/ijeecs.v42.i3.pp774-785  774"
+  ]
+ },
+ {
+  "file": "17 [SINTA 2] 2026 - Jurnal RESTI (Rekayasa - Forecasting IHSG Stock Prices Using an Attention-Based CNN-BiGRU.pdf",
+  "head": "224 | Available online at website: https://jurnal.iaii.or.id/index.php/RESTI | JURNAL RESTI | (Rekayasa Sistem dan Teknologi Informasi) | Vol. 10 No. 1 (2026) 224 - 233 e-ISSN: 2580-0760 | Forecasting IHSG Stock Prices Using an Attention-Based CNN-BiGRU Hybrid | Deep Learning | Ibnu Rasyid Munthe1, Bhakti Helvi Rambe2, Shabrina Rasyid Munthe3 | 1Information Systems, Faculty of Science and Technology, Universitas Labuhanbatu, Rantauprapat, Indonesia | 2Accounting, Faculty of Economics and Business, Universitas Labuhanbatu, Rantauprapat, Indonesia | 3Informatics Engineering, Faculty of Computer Science, Universitas Al Washliyah Labuhanbatu, Rantauprapat, Indonesia | 1ibnurasyidmunthe@gmail.com, 2bhaktihelvirambe@gmail.com, 3shabrinarasyid@gmail.com | Abstract | This study develops an IHSG stock price forecasting model using a hybrid CNN–BiGRU architecture enhanced by an attention | mechanism. The key novelty lies in combining CNN -based local pattern extraction with BiGRU-based bidirectional temporal | modeling, while attention selectively emphasizes the most informative time steps, improving representation quality for complex | and noisy financial series. Historical IHSG data from public sources were preprocessed through feature engineering and | normalization, followed by XGB oost-based feature selection to retain the most predictive variables. Model robustness was | assessed in two settings: (i) the full dataset and (ii) a “cleaned” dataset excluding the extreme COVID -19 vo",
+  "cite": [
+   "Vol. 10 No. 1 (2026) 224 - 233 e-ISSN: 2580-0760",
+   "Deep Learning”, J. RESTI (Rekayasa Sist. Teknol. Inf.) , vol. 10, no. 1, pp. 224 - 233, Feb. 2026.",
+   "Permalink/DOI: https://doi.org/10.29207/resti.v10i1.7064",
+   "Munthe et al Jurnal RESTI Vol. 10 No. 1 (2026)"
+  ]
+ },
+ {
+  "file": "18 [SINTA 2] 2025 - CAUCHY Jurnal Matematika - Performance Analysis of ARIMA, LSTM, and Hybrid ARIMA-LSTM in.pdf",
+  "head": "CAUCHY – Jurnal Matematika Murni dan Aplikasi | Volume 10 (2) (2025), Pages 588–604 | p-ISSN: 2086-0382; e-ISSN: 2477-3344 | Performance Analysis of ARIMA, LSTM, and Hybrid | ARIMA-LSTM in Forecasting the Composite Stock Price Index | Andi Illa Erviani Nensi, Mahda Al Maida∗, Khairil Anwar Notodiputro, Yenni Angraini, and Laily Nissa | Atul Mualifah | Statistics and Data Science Study Program, IPB University | Abstract | This study evaluates the performance of the ARIMA, LSTM and hybrid ARIMA-LSTM | models in predicting the closing and opening prices of the Indonesia Stock Exchange Composite | Index (IHSG) for various periods (2007-2020, 2007-2022 and 2007-2024). For the LSTM | model, a lag of 1 was chosen based on MAPE analysis, showing a strong dependence on the | previous day’s price. Different learning rates (0.01, 0.001, 0.0001) and batch sizes (16, 32) were | tested on various network architectures. The results indicate that while ARIMA effectively | captures linear patterns, LSTM consistently outperforms with lower MAPE values - 2. 27% | for closing and 2. 02% for opening prices - especially with a simple architecture (1-50-1) and | a learning rate of 0.001. The hybrid ARIMA(0,1,1)-LSTM(1-50-1) model showed competitive | results, achieving MAPE of 2.00% for closing and 1.74% for opening prices using batch size 16. | However, its success depends on ARIMA’s ability to model linear components. Key findings | emphasize LSTM’s dominance in accuracy, the importance of parame",
+  "cite": [
+   "Volume 10 (2) (2025), Pages 588–604",
+   "DOI: https://doi.org/10.18860/cauchy.v10i2.33379"
+  ]
+ },
+ {
+  "file": "19 [SINTA 1] 2025 - Indonesian Journal of - Comparing machine learning models for Indonesia stock market.pdf",
+  "head": "Indonesian Journal of Electrical Engineering and Computer Science | Vol. 38, No. 1, April 2025, pp. 508~516 | ISSN: 2502-4752, DOI: 10.11591/ijeecs.v38.i1.pp508-516  508 | Journal homepage: http://ijeecs.iaescore.com | Comparing machine learning models for Indonesia stock | market prediction | Selly Anastassia Amellia Kharis1, Arman Haqqi Anna Zili2, Maulana Malik2, | Wahyu Nuryaningrum2, Agustiani Putri3 | 1Department of Mathematics, Faculty of Science and Technology, Universitas Terbuka, Tangerang, Indonesia | 2Department of Mathematics, Faculty of Mathematics and Natural Sciences, Universitas Indonesia, Depok, Indonesia | 3Department of Mathematics, Faculty of Mathematics and Natural Sciences, Universitas Negeri Malang, Malang, Indonesia | Article Info ABSTRACT | Article history: | Received Feb 19, 2024 | Revised Oct 17, 2024 | Accepted Oct 30, 2024 | The financial market hold a significant role in the economy and the ability to | accurately predict stock prices poses a major challenge, particularly in | volatile markets like Indonesia. This study investigates the application of | three supervised machine lea rning algorithms: random forest (RF), support | vector regression (SVR), K -nearest neighbor (KNN) to predict the closing | prices of stocks. The data us ed in this research consists of BBCA, PWON, | and TOWR stocks. This study adopted daily historical stock price s from | March 2017 to February 2020, which were normalized and segmented into | training and testing da",
+  "cite": [
+   "Vol. 38, No. 1, April 2025, pp. 508~516",
+   "ISSN: 2502-4752, DOI: 10.11591/ijeecs.v38.i1.pp508-516  508"
+  ]
+ },
+ {
+  "file": "20 [SINTA 1] 2025 - IAES International Journal - Stock market liquidity hybrid deep learning approaches for prediction.pdf",
+  "head": "IAES International Journal of Artificial Intelligence (IJ-AI) | Vol. 14, No. 5, October 2025, pp. 3624~3633 | ISSN: 2252-8938, DOI: 10.11591/ijai.v14.i5.pp3624-3633  3624 | Journal homepage: http://ijai.iaescore.com | Stock market liquidity: hybrid deep learning approaches for | prediction | Mariam Ait Al1, Said Achchab1, Younes Lahrichi2 | 1ENSIAS, Mohammed V University in Rabat, Rabat, Morocco | 2The Higher Institute of Commerce and Business Administration (Groupe ISCAE), Casablanca, Morocco | Article Info ABSTRACT | Article history: | Received Sep 16, 2024 | Revised Jun 26, 2025 | Accepted Jul 13, 2025 | Predicting stock market liquidity especially in emerging or frontier financial | markets, such as the Casablanca stock exchange (CSE), presents significant | challenges given the relative narrowness and volatility of these markets. In | this paper, we conduct a comprehensive study to address the predictions | accuracy gaps between five main deep learning models: convolutional neural | network (CNN), long short -term memory (LSTM), bidirectional LSTM | (BiLSTM), and two hybrid architectures, CNN -LSTM and CNN -BiLSTM. | The proposed methodology focused on training and testing these models on | historical data from the CSE, with precision on capturing both spatial and | temporal market dynamics. The models were fine -tuned using key | hyperparameters and validated on 20% of the dataset to ensure reliable | results. The evaluation of performance was conducted using error met",
+  "cite": [
+   "Vol. 14, No. 5, October 2025, pp. 3624~3633",
+   "ISSN: 2252-8938, DOI: 10.11591/ijai.v14.i5.pp3624-3633  3624"
+  ]
+ },
+ {
+  "file": "21 [SINTA 1] 2025 - IAES International Journal - Multi-class stock market forecasting with deep learning models an.pdf",
+  "head": "IAES International Journal of Artificial Intelligence (IJ-AI) | Vol. 14, No. 5: October 2025, pp. 4342~4352 | ISSN: 2252-8938, DOI: 10.11591/ijai.v14.i5.pp4342-4352  4342 | Journal homepage: http://ijai.iaescore.com | Multi-class stock market forecasting with deep learning models: | an explainable artificial intelligence | Chhaya Patel1, Ashwin Raiyani2 | 1Department of Computer Engineering, School of Engineering, RK University, Rajkot, India | 2Institute of Management, Nirma University, Ahmedabad, India | Article Info ABSTRACT | Article history: | Received Mar 12, 2025 | Revised Aug 2, 2025 | Accepted Sep 7, 2025 | In this research, we investigated the influence of different deep learning | techniques on time series stock market data, especially for all Nifty50 | companies in the Indian stock market. Our proposed method of stock market | prediction focused on multi -class c lassification with explainable artificial | intelligence (XAI). Our proposed model incorporates convolutional neural | network (CNN) for operational feature extraction and long short-term | memory (LSTM) to capture time -based dependencies. Predicted value is | classified with multiclass classes -very bullish, bullish, neutral, bearish, very | bearish signals for all Nifty50 stocks. The model integrates essential | technical indicators to find patterns from basic price data. XAI techniques | are also used to find feature c ontributions to model prediction. It improves | the clarity of the model’s adminis",
+  "cite": [
+   "Vol. 14, No. 5: October 2025, pp. 4342~4352",
+   "ISSN: 2252-8938, DOI: 10.11591/ijai.v14.i5.pp4342-4352  4342"
+  ]
+ },
+ {
+  "file": "22 [SINTA 1] 2026 - Indonesian Journal of - An automatic stock price movement prediction using circularly dilated.pdf",
+  "head": "Indonesian Journal of Electrical Engineering and Computer Science | Vol. 41, No. 2, February 2026, pp. 823~832 | ISSN: 2502-4752, DOI: 10.11591/ijeecs.v41.i2.pp823-832  823 | Journal homepage: http://ijeecs.iaescore.com | An automatic stock price movement prediction using circularly | dilated convolutions with orthogonal gated recurrent unit | Durga Meena Rajendran1, Maharajan Kalianandi1, Bhuvanesh Ananthan2 | 1Department of Computer Science and Engineering, School of Computing, Kalasalingam Academy of Research and Education, | Srivilliputhur, India | 2Department of Electrical and Electronics Engineering, PSN College of Engineering and Technology, Tirunelv eli, India | Article Info ABSTRACT | Article history: | Received Mar 20, 2024 | Revised Nov 15, 2025 | Accepted Dec 13, 2025 | Recently, stock trend analysis has played an integral role in gaining | knowledge about trading policy and determining stock intrinsic patterns. | Several conventional studies reported stock trend prediction analysis but | failed to obtain better performance due to poor generalization capability and | high gradient vanishing problems. In light of the need to forecast stock price | trends using both textual and empirical price data, this research proposed a | novel hybridized deep learning (DL) model. Preprocessing, feature extraction, | and prediction are the three effective stages that the created research goes | through in order to properly estimate t he stock movements. Data cleaning, | which h",
+  "cite": [
+   "Vol. 41, No. 2, February 2026, pp. 823~832",
+   "ISSN: 2502-4752, DOI: 10.11591/ijeecs.v41.i2.pp823-832  823",
+   "Indonesian J Elec Eng & Comp Sci, Vol. 41, No. 2, February 2026: 823-832"
+  ]
+ },
+ {
+  "file": "23 [SINTA 1] 2026 - IAES International Journal - Technical analysis model for stock prediction using a grammatical.pdf",
+  "head": "IAES International Journal of Artificial Intelligence (IJ-AI) | Vol. 15, No. 2, April 2026, pp. 1236~1246 | ISSN: 2252-8938, DOI: 10.11591/ijai.v15.i2.pp1236-1246  1236 | Journal homepage: http://ijai.iaescore.com | Technical analysis model for stock prediction using a | grammatical evolution algorithm | Aditya Kusuma Setyanegara, Imas Sukaesih Sitanggang, Mushthofa | School of Data Science, Mathematics and Informatics, IPB University, Bogor, Indonesia | Article Info ABSTRACT | Article history: | Received Jan 11, 2025 | Revised Jan 5, 2026 | Accepted Jan 22, 2026 | Stocks are a popular investment instrument but carry high risks, where | investors may incur losses when stocks are bought at high prices and sold at | lower prices. Technical analysis is used to study past stock price behavior to | predict future prices. In thi s study, grammatical evolution (GE) is applied as | an evolutionary computing technique to discover optimal functions or | programs that represent historical stock price data. This study develops GE - | based prediction models by utilizing objective functions and search spaces | defined through grammar. The model integrates technical indicators based | on complex statistical models such as autoregressive integrated moving | average ( ARIMA), prophet, exponential smoothing, and Fibonacci | retracements. Furthermore, this stu dy employs GE to generate ensemble | weights randomly, ensuring each model contributes equitably to the final | prediction formula. Ex",
+  "cite": [
+   "Vol. 15, No. 2, April 2026, pp. 1236~1246",
+   "ISSN: 2252-8938, DOI: 10.11591/ijai.v15.i2.pp1236-1246  1236"
+  ]
+ },
+ {
+  "file": "24 [SINTA 2] 2026 - UNP Journal of Statistics - IHSG Closing Price Prediction on the Indonesian Stock Exchange using.pdf",
+  "head": "216 | UNP JOURNAL OF STATISTICS AND DATA SCIENCE | Volume 4 Nomor 2 Tahun 2026 Halaman 216-224. | ISSN(Print) : 3025-5511 | ISSN(Online): 2985-475X | DOI: https://doi.org/10.24036/ujsds/vol4-iss2/486 ©Department of Statistics, Universitas Negeri Padang | IHSG Closing Price Prediction on the Indonesian Stock | Exchange using the Geometric Brownian Motion Model | Sukra Hamna, Devni Prima Sari * | Departemen Matematika, Universitas Negeri Padang, Padang, Indonesia | *Corresponding author: devniprimasari@fmipa.unp.ac.id | ABSTRACT | Being among the leading primary benchmarks reflecting the health of the equity market in Indonesia, the Jakarta | Composite Index (IHSG) experiences ongoing price movements shaped by a wide spectrum of domestic and | international forces. The inherent unpredictability of these movements underscores the critical need for reliable | forecasting methods to guide investors in their decision-making process. In response to this, the present study applies | the Geometric Brownian Motion model as a tool for projecting the daily closing values of the IHSG, owing to its well- | recognized ability to represent the random characteristics inherent in financial time series. The dataset utilized | comprises daily closing price records of the IHSG throughout 2025. The analysis includes the calculation of log returns, | normality testing using the Kolmogorov-Smirnov test, and estimation of drift and volatility parameters. Forecasting is | performed using simulation wi",
+  "cite": [
+   "Volume 4 Nomor 2 Tahun 2026 Halaman 216-224.",
+   "DOI: https://doi.org/10.24036/ujsds/vol4-iss2/486 ©Department of Statistics, Universitas Negeri Padang",
+   "Volume 4 Nomor 2 Tahun 2026 Halaman 216-224.",
+   "DOI: https://doi.org/10.24036/ujsds/vol4-iss2/486 ©Department of Statistics, Universitas Negeri Padang"
+  ]
+ },
+ {
+  "file": "25 [SINTA 2] 2025 - Jurnal Ilmiah Manajemen - The Influences of Exchange Rates, Money Supplies, Interest on IHSG.pdf",
+  "head": "Exchange Rates, | Money Supplies, and | Interest Rates on IHSG | 2795 | Submitted: | MAY 2025 | Accepted: | JULY 2025 | JIMKES | Jurnal Ilmiah Manajemen | Kesatuan | Vol. 13 No. 4, 2025 | pp. 2795-2806 | IBI Kesatuan | ISSN 2337 – 7860 | E-ISSN 2721 – 169X | DOI: 10.37641/jimkes.v14i3.3461 | The Influences of Exchange Rates, Money Supplies, | and Interest Rates on IHSG Using Inflation as a | Moderating Variable | Hakim Muttaqim | Universitas Almuslim; Aceh, Indonesia | E-Mail: hakimmuttaqim@umuslim.ac.id | Jamaluddin | Universitas Almuslim; Aceh, Indonesia | E-Mail: jamaluddin.akt@gmail.com | M. Saleh | Universitas Almuslim; Aceh, Indonesia",
+  "cite": [
+   "Vol. 13 No. 4, 2025",
+   "pp. 2795-2806",
+   "DOI: 10.37641/jimkes.v14i3.3461"
+  ]
+ },
+ {
+  "file": "26 [SINTA 2] 2025 - Jurnal Manajemen Bisnis - The Influence of DAR, DER, ROA, ROE on Firm Value in IDX.pdf",
+  "head": "Karina Ayu Aristawati & Dedi Hariyanto (2025) 195 | The Influence of Debt to Asset Ratio, Debt to Equity Ratio, Return on | Assets, and Return on Equity on Firm Value in Financial Sector | Companies Listed on the Indonesia Stock Exchange | Karina Ayu Aristawati1*, Dedi Hariyanto2 | 1*,2Department of Management, Faculty of Economics and Business, Universitas Muhammadiyah | Pontianak, Kota Pontianak | ARTICLE INFO | Email Correspondence: | media.karina@gmail.com | Keywords: | Debt to Assets Ratio, Debt to Equity | Ratio, Return on Assets, Return on | Equity, Firm Value | DOI: | https://doi.org/10.33096/jmb.v12i1.1080 | ABSTRACT | This study set out to explore how four financial ratios—DAR (Debt to Asset | Ratio), DER (Debt to Equity Ratio), ROA (Return on Assets), and ROE | (Return on Equity)—influence the value of banking businesses listed on the | Indonesia Stock Exchange (IDX). Using a quantitative method, researchers | analyzed the financial statements of IDX-listed companies in the financial | sector through multiple linear regression. To ensure the reliability of the | regression model, it was tested for normality, multicollinearity, | heteroscedasticity, and autocorrelation using classical assumption tests. | However, the results showed that none of the four variables —DAR, DER, | ROA, or ROE—had a significant impact on firm value, either individually or | collectively. This was confirmed by both the F-test and the t-test. The model’s",
+  "cite": [
+   "DOI:",
+   "https://doi.org/10.33096/jmb.v12i1.1080",
+   "Jurnal Manajemen Bisnis Vol. 12, No.1 (2025) March, Page. 195-210"
+  ]
+ },
+ {
+  "file": "27 [SINTA 2] 2025 - Indonesia Accounting - Analysis of macroeconomic influence on composite stock price index.pdf",
+  "head": "Indonesia Accounting Research Journal, 12 (3) (2025), pp. 106-114 | Journal homepage: https://journals.iarn.or.id/index.php/IARJ/index | Published by: Institute of Accounting Research and Novation (IARN) | Indonesia Accounting Research Journal | Journal homepage: https://journals.iarn.or.id/index.php/IARJ/index | Analysis of macroeconomic influence on composite stock price | index fluctuations on the Indonesia stock exchange | Martha Racwel Patty | Department of Management, Faculty of Economics and Business, Universitas Pattimura, Ambon, Indonesia | Article Info ABSTRACT | Article history: | Received Feb 5, 2025 | Revised Feb 10, 2025 | Accepted Feb 24, 2025 | This research analyzes the influence of macroeconomic factors, namely | the exchange rate of the rupiah against the US dollar, the 7 -day BI | interest rate, inflation, and mon ey supply, on the fluctuations of the | Composite Index of Stock Prices in the Indonesian Stock Exchange | during the period 2018 -2023. The multiple regression analysis method | is used to evaluate the relationship between variables using monthly | data. The resea rch results show that the exchange rate of the rupiah | has a significant negative influence on the JCI, while the 7 -day BI | interest rate, inflation, and money supply have a significant positive | influence. At the same time, these four variables were shown to | significantly influence the JCI. These findings provide information for | investors, economic observers, and policymakers ",
+  "cite": [
+   "Indonesia Accounting Research Journal, 12 (3) (2025), pp. 106-114"
+  ]
+ },
+ {
+  "file": "28 [SINTA 2] 2026 - Jurnal Ilmiah Manajemen - The Effect of ROE and Company Size on Stock Prices through DPR.pdf",
+  "head": "Mediating Effect of | Dividend Payout Ratio | on Stock Price | 3611 | Submitted: | June 24, 2026 | Revised: | July 6, 2026 | Accepted: | July 23, 2026 | Published Online: | July 25, 2026 | JIMKES | Jurnal Ilmiah Manajemen | Kesatuan | Vol. 14 No. 4, 2026 | pp. 3611–3620 | IBI Kesatuan | ISSN 2337–7860 | E-ISSN 2721–169X | DOI: 10.37641/jimkes.v14i4.5521 | The Effect of Return on Equity and Company Size | on Stock Prices through Dividend Payout Ratio | Gina Nurhayati1*, Asep Muhammad Ramdan2, Nor Norisanti3 1,2,3Department of Business Administration, Faculty of Administrative Sciences and | Humanities, Universitas Muhammadiyah Sukabumi; Sukabumi, Indonesia | *Corresponding Author E-Mail: ginanurhayati07@ummi.ac.id | ABSTRACT | A decline in share prices among manufacturing companies listed on the Indonesia Stock",
+  "cite": [
+   "Vol. 14 No. 4, 2026",
+   "pp. 3611–3620",
+   "DOI: 10.37641/jimkes.v14i4.5521"
+  ]
+ },
+ {
+  "file": "29 [SINTA 2] 2025 - Jurnal Ilmiah Akuntansi - Stock Price Determinants in Defensive Industries Macro and Profit.pdf",
+  "head": "Stock Price Determinants in Defensive Industries: | The Role of Macroeconomic Factors and Profit | Growth in Indonesia’s Pharmaceutical Sector | Ellyn Octavianty | Department of Accounting, Faculty of Economics and Business, Universitas Pakuan, Jl. | Pakuan PO Box 452, Bogor 16143, Indonesia | E-Mail: ellyn.octavianty@unpak.ac.id | Agung Fajar Ilmiyono | Department of Accounting, Faculty of Economics and Business, Universitas Pakuan, Jl. | Pakuan PO Box 452, Bogor 16143, Indonesia | E-Mail: agungfajar.ilmiyono@unpak.ac.id | Nilda Tartilla | Department of Accounting, Faculty of Economics and Business, Institut Bisnis dan | Informatika Kesatuan, Jl. Ranggagading No. 1, Bogor 16123, Indonesia | E-Mail: nildatartilla@ibik.ac.id | Davina Dwi Andriani | Department of Accounting, Faculty of Economics and Business, Universitas Pakuan, Jl. | Pakuan PO Box 452, Bogor 16143, Indonesia | E-Mail: davinadwiandriani@gmail.com | ABSTRACT | Stock price fluctuations are shaped by both macroeconomic conditions and firm-level | performance, making them a central focus in capital market research. The pharmaceutical | sector, as part of the consumer goods industry, is often classified as a defensive s ector | where demand remains relatively stable during economic uncertainty. This study | examines the effect of inflation, interest rates, and profit growth on the stock prices of | pharmaceutical sub-sector companies listed on the Indonesia Stock Exchange (IDX) from | 2014 to 2020. Using purposive s",
+  "cite": [
+   "Informatika Kesatuan, Jl. Ranggagading No. 1, Bogor 16123, Indonesia",
+   "Vol. 13 No. 4, 2025",
+   "DOI: 10.37641/jiakes.v13i4.3582"
+  ]
+ },
+ {
+  "file": "30 [SINTA 2] 2025 - Jurnal Ilmiah Akuntansi - Influence of Tokenized Derivatives on Market Liquidity Pricing.pdf",
+  "head": "Influence of Perceived | Adoption of | Tokenized | 705 | Submitted: | MAY 2025 | Accepted: | AUGUST 2025 | JIAKES | Jurnal Ilmiah Akuntansi | Kesatuan | Vol. 13 No. 4, 2025 | pp. 705-716 | IBI Kesatuan | ISSN 2337 – 7852 | E-ISSN 2721 – 3048 | DOI: 10.37641/jiakes.v13i4.3496 | Influence of Perceived Adoption of Tokenized | Derivatives on Market Liquidity, Pricing Efficiency | Sri Handini | Universitas Dr. Soetomo; Surabaya, Indonesia | E-Mail: Sri.handini@unitomo.ac.id | Garry Brumadyadisty | Universitas Islam Syekh Yusuf; Tanggerang, Indonesia | E-Mail: garrybrumadyadisty@gmail.com | Susanto Soekiman | Universitas Dr. Soetomo; Surabaya, Indonesia | E-Mail: jfx.susanto@unitomo.ac.id",
+  "cite": [
+   "Vol. 13 No. 4, 2025",
+   "pp. 705-716",
+   "DOI: 10.37641/jiakes.v13i4.3496"
+  ]
+ }
+]
