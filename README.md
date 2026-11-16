@@ -286,3 +286,5 @@ Bukti evaluasi tersimpan di `backend/tmp_eval/` (`results.json`, `summary.json`)
 - Leksikon sentimen Indonesia terbatas pada ~90 istilah; ironi, sarkasme, dan berita berbahasa campuran belum tertangani.
 - Data Yahoo Finance untuk emiten IDX kecil sering tidak lengkap; sistem menandai `degraded`, bukan mengarang nilai.
 - Hasil backtest dilaporkan apa adanya, termasuk performa buruk.
+#   a i - a g e n t s - s a h a m  
+ 
